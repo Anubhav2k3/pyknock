@@ -1,4 +1,4 @@
-# ⚡ PyKnock — Autonomous AI Pentesting Agent
+#  PyKnock — Autonomous AI Pentesting Agent
 
 ```
  ██████╗ ██╗   ██╗██╗  ██╗███╗   ██╗ ██████╗  ██████╗██╗  ██╗
@@ -7,7 +7,7 @@
  ██╔═══╝   ╚██╔╝  ██╔═██╗ ██║╚██╗██║██║   ██║██║     ██╔═██╗ 
  ██║        ██║   ██║  ██╗██║ ╚████║╚██████╔╝╚██████╗██║  ██╗
  ╚═╝        ╚═╝   ╚═╝  ╚═╝╚═╝  ╚═══╝ ╚═════╝  ╚═════╝╚═╝  ╚═╝
-   ⚡ Autonomous AI Pentesting Agent  |  Powered by Claude
+    Autonomous AI Pentesting Agent  |  Powered by Claude
 ```
 
 PyKnock is an **autonomous pentesting agent** that uses Claude AI to iteratively
@@ -15,7 +15,7 @@ scan, enumerate, and analyse a target — so you can sit back and watch the term
 
 ---
 
-## 🚀 Quickstart
+##  Quickstart
 
 ```bash
 # Install dependencies
@@ -34,7 +34,7 @@ python pyknock.py -t 192.168.1.1 -k sk-ant-... --max-iter 8
 
 ---
 
-## 🧠 How It Works
+##  How It Works
 
 ```
 ┌─────────────────────────────────────────────────────┐
@@ -58,7 +58,7 @@ python pyknock.py -t 192.168.1.1 -k sk-ant-... --max-iter 8
 
 ---
 
-## 🔧 Tool Arsenal (12 tools)
+##  Tool Arsenal (12 tools)
 
 | Tool | Description |
 |------|-------------|
@@ -77,7 +77,7 @@ python pyknock.py -t 192.168.1.1 -k sk-ant-... --max-iter 8
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 pyknock/
@@ -103,7 +103,7 @@ pyknock/
 
 ---
 
-## 📄 Sample Output
+##  Sample Output
 
 ```
 ┌─────────────────────────── ◈ PHASE: RECON ───────────────────────────┐
@@ -145,15 +145,6 @@ pyknock/
 
 ---
 
-## 🏗️ Architecture Notes (for interviews)
 
-- **Autonomous agent loop** — Claude acts as the reasoning engine, not just a formatter
-- **Stateful context** — full scan state passed every API call; no hallucinated history
-- **Tool registry pattern** — adding a new tool is a one-function change
-- **Graceful degradation** — works with just `nmap` + `curl` if other tools absent
-- **Structured AI output** — Claude forced to respond in JSON; robust fallback parsing
-- **Zero hardcoded scan paths** — AI decides every next step based on actual findings
-
----
 
 *Built with Python 3.10+, Anthropic Claude, Rich*
