@@ -1,0 +1,6 @@
+# PyKnock — Autonomous AI Pentesting Agent
+# Python dependencies
+# Install: pip install -r requirements.txt
+
+anthropic>=0.40.0   # Claude API client
+rich>=13.0.0        # Terminal UI (panels, spinners, tables, colours)
